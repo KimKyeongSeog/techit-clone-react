@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import TopBanner from "./components/TopBanner";
 import Banner from "./components/Banner";
+import KdtSection from "./components/KdtSection";
 
 const App = () => {
   return (
@@ -8,21 +9,7 @@ const App = () => {
       <TopBanner />
       <Header />
       <Banner />
-      <section className="mt-20 bg-green-100 max-w-screen-xl mx-auto px-6">
-        <div className="bg-red-100 h-[64.5px]">KDT</div>
-        <div className="bg-purple-100 grid grid-cols-4 gap-6 justify-items-center">
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-          <div className="bg-yellow-100 w-[290px] h-[416px]">Card</div>
-        </div>
-      </section>
+      <KdtSection />
       <section className="mt-20 bg-green-100 max-w-screen-xl mx-auto px-6">
         <div className="bg-red-100 h-[64.5px]">Schedule</div>
         <div className="bg-blue-100 h-[280px]">KDT</div>
